@@ -1,0 +1,64 @@
+/* 
+black:#000000
+blue:#14213D
+orange:#FCA311
+white:#E5E5E5
+*/
+
+
+
+@font-face {
+  font-family: "vazir";
+   src: url("../fonts/Vazir.eot");
+   src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html
+{
+  font-size: 10px;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2D3032;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7D7F80;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.MuiCard-root::-webkit-scrollbar{
+  display:none;
+}

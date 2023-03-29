@@ -1,0 +1,52 @@
+
+h1{
+    color: #00000031;
+}
+.div-home
+{
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    border: 0.5px solid #9615DB;
+    height: 14rem;
+    width: 40rem;
+    position: relative;
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+
+}
+.introduce 
+{
+    color: black;
+    font-size: 1.8rem !important;
+    letter-spacing: -1.2px;
+}
+
+.icon-in
+{
+    display: inline-block;
+    color: #027619;
+    padding:0 1.8rem 0 0.1rem;
+    padding-top: 10px;
+    vertical-align: sub;
+}
+.avtr
+{
+   
+    border-radius: 10px;
+}
+.muirtl-pr8tyz-MuiLinearProgress-bar1
+{
+    background-color:#d9480f  ;
+}
+.linear
+{
+    background-color:#78797840  ;
+}
+.submit:hover{
+    background-color: #8100c7dc !important;
+}
+

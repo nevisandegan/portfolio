@@ -1,0 +1,16 @@
+/* .MuiButtonBase-root
+{
+    color:#545b5a!important;
+}
+.MuiButtonBase-root:focus
+{
+    color: blue !important;
+} */
+
+
+.flex-tab
+{
+    display: flex !important;
+    flex-direction: row;
+    gap: 10px;
+}
